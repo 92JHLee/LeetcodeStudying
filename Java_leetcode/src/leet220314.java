@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//´ëÃ¼ ¿Ö Ä¿¹ÔÀÌ ¾ÈµÇ´Â°É±î ¾Ë·ÁÁÙ »ç¶÷ ±¸ÇÔ..
+// 220314 leetcode í’€ì´) https://leetcode.com/problems/concatenation-of-array/
 
 public class leet220314 {
 
@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	int array[];
 	array = new int[n];
 	
-	//¹è¿­À» ÀÔ·Â¹Þ°í ÀÔ·ÂÇÑ array ¹è¿­ Ãâ·Â
+	//ë°°ì—´ì„ ìž…ë ¥ë°›ê³  ìž…ë ¥í•œ array ë°°ì—´ ì¶œë ¥
 	System.out.print("Input > ");
 	for(int i=0;i <array.length ; i++)
 	{
@@ -28,16 +28,16 @@ public static void main(String[] args) {
 	int ans[];
 	int doublen =2*n;
 	ans = new int[doublen];
-	//System.out.println(ans.length); ±æÀÌ Á¦´ë·Î Ãâ·ÂµÆ´ÂÁö Ã¼Å©ÇÔ
+	//System.out.println(ans.length); ê¸¸ì´ ì œëŒ€ë¡œ ì¶œë ¥ëëŠ”ì§€ ì²´í¬í•¨
 		
 	for(int p=0;p<ans.length;p++)
 	{
-		if(p>=0 && p<n) // ex.n=5ÀÏ¶§, 0~4±îÁö´Â ans[p]=array[i] ÀÓ
+		if(p>=0 && p<n) // ex.n=5ì¼ë•Œ, 0~4ê¹Œì§€ëŠ” ans[p]=array[i] ìž„
 		{
 			ans[p] = array[p];
 				System.out.print(ans[p]+", ");
 		}
-		else if(p>=n && p<ans.length-1 ) // ex.n=5ÀÏ¶§, n=5º¸´Ù Å©°í ans.length´Â 10ÀÌ´Ï 10º¸´Ù ÀÛÀ¸¸é
+		else if(p>=n && p<ans.length-1 ) // ex.n=5ì¼ë•Œ, n=5ë³´ë‹¤ í¬ê³  ans.lengthëŠ” 10ì´ë‹ˆ 10ë³´ë‹¤ ìž‘ìœ¼ë©´
 			{
 			ans[p] = array[p-n];
 			System.out.print(ans[p]+", ");
