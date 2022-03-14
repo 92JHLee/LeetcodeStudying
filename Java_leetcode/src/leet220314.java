@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// 220314 leetcode 풀이) https://leetcode.com/problems/concatenation-of-array/
+// 220314. 1929. leetcode 풀이) https://leetcode.com/problems/concatenation-of-array/
 
 public class leet220314 {
 
