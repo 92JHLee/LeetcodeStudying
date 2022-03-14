@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//대체 왜 커밋이 안되는걸까 알려줄 사람 구함..
+
 public class leet220314 {
 
 public static void main(String[] args) {
